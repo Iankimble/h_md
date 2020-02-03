@@ -14,6 +14,8 @@ dotenv.config();
 
 const app = express();
 
+// Build
+
 //Routes
 const authRoutes = require("./routes/auth-routes");
 const userRoutes = require("./routes/user-routes");
